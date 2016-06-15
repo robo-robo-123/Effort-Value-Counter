@@ -1,8 +1,27 @@
 ﻿<Application
-    x:Class="Effort_Value_Counter_UWP.App"
+    x:Class="Effort_Value_Counter.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Effort_Value_Counter_UWP"
-    RequestedTheme="Light">
+    xmlns:local="using:Effort_Value_Counter"
+    xmlns:localData="using:Effort_Value_Counter.Data">
 
+    <Application.Resources>
+
+        <!--アプリケーション固有のリソース -->
+    <x:String x:Key="AppName">努力値カウンターXY</x:String>
+
+    <!-- 【第11回】広告のパラメーター-->
+
+    <x:String x:Key="ApplicationId1">30182149-8a3f-4117-a08f-0fef5b509cbb</x:String>
+    <x:String x:Key="AdUnitId1L">169617</x:String>
+    <x:String x:Key="AdUnitId1S">170098</x:String>
+
+    <!--サンプルパラメータ-->
+    <!--
+    <x:String x:Key="ApplicationId1">d25517cb-12d4-4699-8bdc-52040c712cab</x:String>
+    <x:String x:Key="AdUnitId1L">10043030</x:String>
+    <x:String x:Key="AdUnitId1S">10043104</x:String>
+-->
+
+  </Application.Resources>
 </Application>
